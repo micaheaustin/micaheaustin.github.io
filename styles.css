@@ -1,14 +1,19 @@
 body {
-  background-color: lightgray;
-  font-family: Oswald, serif;
+  background-color: #f4f4f4;
+  font-family: 'Roboto', Arial, sans-serif;
+  color: #333;
+  line-height: 1.6;
 }
 
 h1 {
+  font-family: 'Oswald', sans-serif;
   text-align: center;
-  color: black;
 }
 
 h2 {
   text-align: center;
-  color: darkgray;
+  color: #555;
+  margin-top: 30px;
+  font-size: 24px;
+  font-weight: 500;
 }
