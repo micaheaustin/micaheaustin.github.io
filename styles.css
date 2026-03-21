@@ -27,3 +27,7 @@ h2 {
   display: block;
   margin: auto;
 }
+
+.project a{
+  display: inline-block;
+}
