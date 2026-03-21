@@ -20,9 +20,9 @@ h2 {
 }
 
 .project img{
-    width: 300px;
-    height: 300px;
-    border: 2px solid rgb(160, 10, 125); /* choose a color */
-    display: block;
-    margin: auto;
+  height: 300px;
+  width: auto; 
+  border: 2px solid rgb(160, 10, 125); /* choose a color */
+  display: block;
+  margin: auto;
 }
