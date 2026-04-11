@@ -55,6 +55,10 @@ h2 {
   padding-bottom: 0.25rem;
 }
 
+h3 {
+  margin-top: 1.5rem;
+}
+
 p {
   color: var(--text-muted);
   margin-bottom: 1rem;
@@ -94,34 +98,19 @@ section {
   margin-bottom: 3rem;
 }
 
-/* ===== CARD STYLE (for projects later) ===== */
-.card {
-  background-color: var(--primary-color);
-  padding: 1.5rem;
-  border-radius: 10px;
-  border: 1px solid var(--border-color);
-  transition: 0.2s;
+/* ===== SKILLS ===== */
+.skills {
+  margin-top: 2rem;
 }
 
-.card:hover {
-  transform: translateY(-5px);
-  border-color: var(--accent-color);
+.skills h3 {
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
 }
 
-/* ===== BUTTON ===== */
-.button {
-  display: inline-block;
-  padding: 0.6rem 1.2rem;
-  background-color: var(--accent-color);
-  color: white;
-  text-decoration: none;
-  border-radius: 6px;
-  font-weight: 500;
-  transition: 0.2s;
-}
-
-.button:hover {
-  background-color: var(--accent-hover);
+.skills ul {
+  padding-left: 1.2rem;
+  margin-bottom: 1.5rem;
 }
 
 /* ===== LINKS ===== */
