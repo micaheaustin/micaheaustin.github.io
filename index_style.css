@@ -61,6 +61,10 @@ p {
 }
 
 /* ===== NAVBAR ===== */
+html {
+  scroll-behavior: smooth;
+}
+
 nav {
   background-color: var(--primary-color);
   border-bottom: 1px solid var(--border-color);
