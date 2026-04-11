@@ -1,3 +1,6 @@
+/* ===== IMPORT FONT ===== */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
 /* ===== ROOT VARIABLES (COLOR SYSTEM) ===== */
 :root {
   --bg-color: #0f172a;          /* dark navy background */
@@ -27,7 +30,7 @@
 
 body {
   background-color: var(--bg-color);
-  font-family: 'Roboto', Arial, sans-serif;
+  font-family: 'Inter', sans-serif;
   color: var(--text-color);
   line-height: 1.6;
 }
