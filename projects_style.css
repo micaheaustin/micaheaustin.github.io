@@ -11,6 +11,13 @@
   --border-color: #334155;
 }
 
+/* ===== GLOBAL RESET ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   background-color: var(--bg-color);
   font-family: 'Roboto', Arial, sans-serif;
