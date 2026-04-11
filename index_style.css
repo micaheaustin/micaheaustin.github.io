@@ -134,6 +134,20 @@ section {
   margin-bottom: 1.5rem;
 }
 
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  margin-top: 1.5rem;
+}
+
+.skill-group {
+  background-color: var(--primary-color);
+  padding: 1.2rem;
+  border-radius: 8px;
+  border: 1px solid var(--border-color);
+}
+
 /* ===== LINKS ===== */
 a {
   color: var(--accent-color);
