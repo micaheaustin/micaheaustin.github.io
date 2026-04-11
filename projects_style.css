@@ -82,6 +82,15 @@ p {
   display: block;
 }
 
+/* ===== LINKS ===== */
+a {
+  color: var(--accent-color);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 /* ===== NAVBAR ===== */
 html {
   scroll-behavior: smooth;
