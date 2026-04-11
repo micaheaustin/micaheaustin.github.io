@@ -142,9 +142,10 @@ section {
 }
 
 .skill-group {
-  background-color: var(--primary-color);
-  padding: 1.2rem;
-  border-radius: 8px;
+  height: 100%;
+  background: var(--primary-color);
+  padding: 1rem;
+  border-radius: 10px;
   border: 1px solid var(--border-color);
 }
 
