@@ -26,18 +26,19 @@ body {
 }
 
 section {
-  background-color: var(--primary-color);
+  background-color: var(--bg-color);
 }
 
 h1 {
   text-align: center;
   text-decoration: underline;
+  color: var(--text-color);
 }
 
 h2 {
   text-align: center;
   text-decoration: underline;
-  var(--text-color);
+  color: var(--text-color);
   margin-top: 30px;
   font-size: 24px;
   font-weight: 500;
