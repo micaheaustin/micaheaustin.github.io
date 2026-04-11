@@ -31,3 +31,32 @@ h2 {
 .project a{
   display: block;
 }
+
+/* ===== NAVBAR ===== */
+html {
+  scroll-behavior: smooth;
+}
+
+nav {
+  background-color: var(--primary-color);
+  border-bottom: 1px solid var(--border-color);
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 2rem;
+  padding: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--text-color);
+  font-weight: 500;
+  transition: 0.2s;
+}
+
+nav a:hover {
+  color: var(--accent-color);
+}
