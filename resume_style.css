@@ -1,0 +1,124 @@
+/* ===== IMPORT FONT ===== */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+/* ===== ROOT VARIABLES (COLOR SYSTEM) ===== */
+:root {
+  --bg-color: #0f172a;          /* dark navy background */
+  --primary-color: #1e293b;     /* section background */
+  --accent-color: #3b82f6;      /* blue accent */
+  --accent-hover: #2563eb;
+
+  --text-color: #e5e7eb;        /* light text */
+  --text-muted: #9ca3af;
+
+  --border-color: #334155;
+}
+
+/* ===== GLOBAL RESET ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ===== CONTAINER ===== */
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+body {
+  background-color: var(--bg-color);
+  font-family: 'Inter', sans-serif;
+  color: var(--text-color);
+  line-height: 1.6;
+}
+
+section {
+  background-color: var(--bg-color);
+}
+
+/* ===== HEADINGS ===== */
+h1, h2, h3 {
+  font-weight: 600;
+  letter-spacing: -0.5px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.8rem;
+  margin-bottom: 0.75rem;
+  border-bottom: 2px solid var(--accent-color);
+  display: inline-block;
+  padding-bottom: 0.25rem;
+}
+
+h3 {
+  margin-top: 1.5rem;
+}
+
+p {
+  color: var(--text-muted);
+  margin-bottom: 1rem;
+}
+
+
+/* ===== LINKS ===== */
+a {
+  color: var(--accent-color);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* ===== NAVBAR ===== */
+html {
+  scroll-behavior: smooth;
+}
+
+nav {
+  background-color: var(--primary-color);
+  border-bottom: 1px solid var(--border-color);
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 2rem;
+  padding: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--text-color);
+  font-weight: 500;
+  transition: 0.2s;
+}
+
+nav a:hover {
+  color: var(--accent-color);
+}
+
+/* ===== BUTTON ===== */
+.button {
+  display: inline-block;
+  padding: 0.6rem 1.2rem;
+  background-color: var(--accent-color);
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 500;
+  transition: 0.2s;
+}
+
+.button:hover {
+  background-color: var(--accent-hover);
+}
